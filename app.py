@@ -18,9 +18,9 @@ import traceback
 app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
-line_bot_api = LineBotApi(os.getenv('CHANNEL_ACCESS_TOKEN'))
+line_bot_api = LineBotApi(os.getenv('Cp8N6JXUMxx5TorJvaQE2OBUUWBypnUv0Wy7BJ00cmrUcuafJEktAgvo0zrng5Fs8XTZ4fK/QnvixTrH1YAyOlKypIV6annaqGhHmx1/ccNzxLroAZVA1ZfZOp2ovKHLJs64iKKwceAw7Urg43taHAdB04t89/1O/w1cDnyilFU='))
 # Channel Secret
-handler = WebhookHandler(os.getenv('CHANNEL_SECRET'))
+handler = WebhookHandler(os.getenv('e6657b552f10e2131df616ede69263f4'))
 
 
 # 監聽所有來自 /callback 的 Post Request
